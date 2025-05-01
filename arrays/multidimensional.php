@@ -15,6 +15,15 @@ echo $alunos[1][0].": P1: ".$alunos[1][1].", P2: ".$alunos[1][2]."<br>";
 echo $alunos[2][0].": P1: ".$alunos[2][1].", P2: ".$alunos[2][2]."<br>";
 echo $alunos[3][0].": P1: ".$alunos[3][1].", P2: ".$alunos[3][2]."<br>";
 ?>
+<?php
 
+// versao melhorada do codigo:
+
+foreach ($alunos as $aluno) {
+    echo $aluno[0] . ": P1: " . $aluno[1] . ", P2: " . $aluno[2] . "<br>";
+}
+
+?>
 </body>
 </html>
+
